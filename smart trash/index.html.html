@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Better mobile scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO improvement -->
+    <meta name="description" content="Smart Trash - Efficient waste disposal and recycling solutions.">
+
+    <title>Smart Trash - Home</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- ICONS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        body {
+            scroll-behavior: smooth;
+        }
+
+        /* HERO */
+        .hero-section {
+            background: linear-gradient(to right, #e9f5e9, #ffffff);
+            padding: 100px 20px;
+        }
+
+        /* Better heading scaling */
+        .hero-title {
+            font-size: clamp(2rem, 5vw, 4rem);
+        }
+
+        /* FEATURE CARDS */
+        .feature-box {
+            border: none;
+            padding: 30px;
+            border-radius: 15px;
+            background-color: #f8f9fa;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .feature-box:hover {
+            background-color: #e6ffe6;
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        /* IMAGE IMPROVEMENT */
+        .hero-img {
+            max-height: 400px;
+            object-fit: cover;
+        }
+
+        /* FOOTER */
+        footer {
+            padding: 40px 0 20px;
+        }
+
+        footer a:hover {
+            color: #00ff80 !important;
+        }
+
+        /* NAVBAR */
+        .navbar-brand {
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-light shadow-sm py-3 sticky-top">
+  <div class="container">
+    <a class="navbar-brand text-success" href="#">Smart Trash</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="container-fluid hero-section">
+    <div class="container">
+        <div class="row align-items-center g-4">
+            
+            <div class="col-md-6 text-center text-md-start">
+                <h1 class="fw-bold text-success hero-title">
+                    Smart Waste Management Made Easy
+                </h1>
+
+                <p class="lead">
+                    Efficient waste disposal, recycling, and cleaner communities — all in one platform.
+                </p>
+
+                <a href="services.html" class="btn btn-success btn-lg mt-2">
+                    Get Started
+                </a>
+            </div>
+
+            <div class="col-md-6 text-center">
+                <img src="green earth.jpg" 
+                     class="img-fluid rounded shadow hero-img" 
+                     alt="Green earth representing recycling and environment">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- FEATURES -->
+<section class="container my-5">
+    <h3 class="text-center fw-bold mb-4">What We Offer</h3>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="feature-box text-center h-100">
+                <i class="bi bi-recycle fs-1 text-success"></i>
+                <h4 class="mt-3">Recycling</h4>
+                <p>Reduce pollution by recycling waste properly and efficiently.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="feature-box text-center h-100">
+                <i class="bi bi-truck fs-1 text-success"></i>
+                <h4 class="mt-3">Waste Pickup</h4>
+                <p>Schedule pickups for homes, schools, and businesses easily.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="feature-box text-center h-100">
+                <i class="bi bi-globe fs-1 text-success"></i>
+                <h4 class="mt-3">Community Impact</h4>
+                <p>Building cleaner and greener communities together.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="container text-center my-5">
+    <h3 class="fw-bold text-success">Schedule a Pickup</h3>
+    <p>Book a waste pickup quickly and easily.</p>
+    <a href="services.html" class="btn btn-success btn-lg">Book Now</a>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center">
+    <div class="container">
+        <h5 class="fw-bold mb-3">Smart Trash</h5>
+        <p>Building a cleaner future, one pickup at a time.</p>
+
+        <div class="d-flex justify-content-center gap-3 fs-4 mb-3">
+            <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-whatsapp"></i></a>
+        </div>
+
+        <p class="mb-0">&copy; 2026 Smart Trash. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
